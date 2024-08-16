@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<BookStore>
+  <Book>
+    <Title>Sample Book 1</Title>
+    <Author>John Doe</Author>
+    <Date>2022-01-01</Date>
+    <ISBN>1234567890</ISBN>
+    <Publisher>ABC Publications</Publisher>
+  </Book>
+  <Book>
+    <Title>Sample Book 2</Title>
+    <Author>Jane Smith</Author>
+    <Date>2022-02-01</Date>
+    <ISBN>0987654321</ISBN>
+    <Publisher>XYZ Books</Publisher>
+  </Book>
+</BookStore>

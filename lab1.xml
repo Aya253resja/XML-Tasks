@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libarary SYSTEM "C:\Users\Aya Rashdan\Desktop\XML tasks\valid lab1.dtd">
+<libarary location="" description="" libriran="aya">
+	<book ISBN="D1" title="" auther="">
+		<perface/>
+		<parts title="">
+			<chapters title="">
+				<summary>&summary;</summary>
+				<section>
+					<content>
+						<p><![CDATA[]]></p>
+					</content>
+				</section>
+			</chapters>
+		</parts>
+	</book>
+</libarary>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="libarary">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="book" minOccurs="1" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="perface" type="xsd:string"/>
+              <xsd:element name="parts">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="chapters">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="summary" type="xsd:string"/>
+                          <xsd:element name="section">
+                            <xsd:complexType>
+                              <xsd:sequence>
+                                <xsd:element name="content">
+                                  <xsd:complexType>
+                                    <xsd:sequence>
+                                      <xsd:element name="p" type="xsd:string"/>
+                                    </xsd:sequence>
+                                  </xsd:complexType>
+                                </xsd:element>
+                              </xsd:sequence>
+                            </xsd:complexType>
+                          </xsd:element>
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                  <xsd:attribute name="title" type="xsd:string"/>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="ISBN" type="xsd:string"/>
+            <xsd:attribute name="title" type="xsd:string"/>
+            <xsd:attribute name="auther" type="xsd:string"/>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="location" type="xsd:string"/>
+      <xsd:attribute name="description" type="xsd:string"/>
+      <xsd:attribute name="libriran" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

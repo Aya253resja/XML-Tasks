@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <!ELEMENT libarary (book+)>
+  <!ATTLIST libaray 
+    location CDATA #REQUIRED
+    description CDATA #IMPLIED
+    librarian (aya|esraa) #REQUIRED >
+    
+  <!ELEMENT book (perface,parts*)>
+  <!ATTLIST book
+    ISBN CDATA #REQUIRED 
+    title CDATA #REQUIRED
+    author CDATA #REQUIRED>
+    
+    
+  <!ELEMENT perface (#PCDATA) >
+    
+  <!ELEMENT parts (chapters*)>
+  <!ATTLIST parts
+    title CDATA #REQUIRED>
+  
+
+  <!ELEMENT chapters (section,summary)>
+  <!ENTITY title "This Is Constant Title" >
+
+  <!ATTLIST chapters
+    title CDATA #REQUIRED>
+    
+  <!ELEMENT summary (#PCDATA)>
+
+  <!ELEMENT section (content)>
+
+  <!ELEMENT content (p*)>
+
+  <!ELEMENT p (#PCDATA) >
+
+  <!ENTITY summary "This is an external summary">
+
+
